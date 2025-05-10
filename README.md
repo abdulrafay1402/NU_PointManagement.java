@@ -1,53 +1,40 @@
-📌 NU Point Management System
-📖 Overview
-The NU Point Management System is a Java-based console application built to manage and track student points within an academic environment. It offers essential functionalities to update, view, and manage points for multiple students — making it a helpful tool for teachers, class representatives, or admin staff.
+# 🎓 NU Point Management System
 
-🚀 Features
-🔐 Role-Based Access: Admin and student modes with different functionalities.
+## 📋 Overview
+- The NU Point Management System is a Java-based application designed to manage student academic points within an educational institution.
+- It provides functionalities for recording, updating, and tracking student performance points throughout their academic journey.
 
-🎯 Point Management: Add, deduct, and view points for individual students.
+## ✨ Features
+- Student registration and management
+- Point allocation based on academic performance
+- Different point categories (attendance, assignments, exams)
+- Real-time point calculation and history tracking
+- User-friendly interface for administrators and faculty
 
-💾 File Storage: Uses text files to store and retrieve point data persistently.
+## 🔧 Technical Details
+- Built using Java
+- Object-oriented design for scalability
+- File-based data persistence
+- Command-line interface for operations
 
-🧭 Simple UI: Menu-driven console interface for straightforward navigation.
+## 💻 Installation
+- Clone the repository: `git clone https://github.com/abdulrafay1402/NU_PointManagement.java.git`
+- Navigate to the project directory: `cd NU_PointManagement.java`
+- Compile the Java files: `javac Main.java`
+- Run the application: `java Main`
 
-🛡 Error Handling: Validates user input and prevents crashes.
+## 🚀 Usage
+- Follow on-screen prompts to navigate through the system
+- Use the help command for assistance with available options
+- Administrative functions require proper authentication
 
-📄 No Login Required: Direct access without sign-up or authentication.
+## 👥 Contributing
+- Fork the repository
+- Create a new branch for your feature
+- Submit a pull request with a detailed description of changes
 
-🧠 Lightweight Design: Fast, responsive, and minimal dependencies.
+## 📄 License
+- This project is licensed under the MIT License
 
-🛠 Technologies Used
-💻 Programming Language: Java
-
-🗃 Data Handling: File I/O using .txt files
-
-🧰 IDE: IntelliJ IDEA or any Java-supporting IDE
-
-🚀 Getting Started
-1️⃣ Clone the Repository
-bash
-Copy
-Edit
-git clone https://github.com/abdulrafay1402/NU_PointManagement.java.git
-cd NU_PointManagement.java
-2️⃣ Compile and Run
-bash
-Copy
-Edit
-javac NU_PointManagement.java
-java NU_PointManagement
-📁 Project Structure
-plaintext
-Copy
-Edit
-NU_PointManagement/
-├── NU_PointManagement.java   # Main program
-├── students.txt              # (auto-created) file to store student data
-├── .gitignore                # Git ignore rules
-└── README.md                 # Project documentation
-🙌 Contributing
-Have suggestions or improvements? Feel free to fork the repo and open a pull request!
-
-📬 Contact
-Created with ❤️ by Abdul Rafay
+## 📞 Contact
+- For questions or support, please contact the repository owner
