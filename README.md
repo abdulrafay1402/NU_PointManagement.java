@@ -4,7 +4,7 @@ This project is a Java-based Transport Management System designed to digitize an
 
 ## 🚀 Project Overview
 
-The FAST-NUCES transport service outsources its operations to two third-party providers: **Nadeem Transporter** and **Zulfiqar Transporter**. Each provider manages a fleet of vehicles, a pool of qualified drivers, and a set of defined routes. The system models these entities and their interactions to provide an efficient pick-and-drop service.
+The FAST-NUCES transport service outsources its operations to two third-party providers: **Nadeem Transporter** and **Zulfiqar Transporter**.Each provider manages a fleet of vehicles, a pool of qualified drivers, and a set of defined routes. The system models these entities and their interactions to provide an efficient pick-and-drop service.
 
 The system's core purpose is to:
 *   Manage user registrations (students and faculty).
