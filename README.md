@@ -55,7 +55,7 @@ The system's core purpose is to:
 
 *   **Generic Data Structures:**
     *   Utilizes **generic data structures** to manage collections of entities (e.g., lists of users, vehicles, bookings), promoting code reusability and maintainability.
-
+---
 ## 🧱 OOP Concepts in Action
 
 This system is a practical demonstration of core Object-Oriented Programming principles:
@@ -66,16 +66,16 @@ This system is a practical demonstration of core Object-Oriented Programming pri
 *   **Polymorphism:** Objects of different types can respond to the same method call in their own specific ways (e.g., `calculateFare()` might behave differently for a student on an AC bus vs. faculty on a non-AC coaster).
 *   **Composition:** Models strong "has-a" relationships. Crucially, a `Vehicle` **has** a `Driver`; the driver is integral to the vehicle's existence within the system.
 *   **Aggregation:** Represents weaker "has-a" or "uses-a" relationships. `Vehicle`s **are associated with** `Route`s and `Transporter`s, which can exist independently.
-
+---
 ## 💻 Technologies Used
 
 *   **Language:** Java
 *   **Libraries:** Standard Java Development Kit (JDK) libraries for file I/O, collections, and core functionalities.
-
+---
 ## 📁 Data Persistence
 
 To ensure data integrity and continuity, the system implements file persistence. Key data, including user details, booking information, and the current state of vehicles, is regularly saved to and loaded from files. This allows the system state to be preserved even after the application is closed and reopened.
-
+---
 ## ⚠️ Error Handling Strategy
 
 The system is designed to be resilient through robust exception handling. It anticipates and manages potential runtime errors using custom-defined exceptions, providing clear feedback for situations such as:
@@ -84,34 +84,45 @@ The system is designed to be resilient through robust exception handling. It ant
 *   Violations of seat designation rules (e.g., student booking a faculty-only seat).
 *   Queries for entities that do not exist within the system.
 
+---
+
 ## 🚀 Getting Started
 
 Follow these steps to set up and run the project:
 
 1.  **Clone the Repository:**
     ```bash
-    git clone <your-repository-url>
+    git clone (https://github.com/abdulrafay1402/NU_PointManagement.java)
     ```
-    Replace `<your-repository-url>` with the actual URL of your GitHub repository.
 
-2.  **Navigate to Project Directory:**
-    ```bash
-    cd <your-project-directory>
-    ```
-    Replace `<your-project-directory>` with the name of the cloned repository folder.
+2. **Compile the Project:**
 
-3.  **Compile the Java Code:**
-    Ensure you have a Java Development Kit (JDK) installed. Compile all `.java` files in the source directory.
-    ```bash
-    javac src/**/*.java
-    ```
-    *(Adjust `src/**/*.java` if your source files are organized differently, e.g., `src/*.java` or specify the main source directory).*
+   Ensure you have **Java JDK 17** (or any compatible version) installed on your system. Then navigate to the project directory and compile using:
 
-4.  **Run the Application:**
-    Execute the main class that initializes the transport management system.
-    ```bash
-    java -cp .:src MainApplication
-    ```
-    *(Replace `MainApplication` with the actual name of your main class. The `-cp .:src` part might need adjustment based on your classpath setup and operating system - e.g., use `.;src` on Windows).*
+   ```bash
+   javac -d bin src/**/*.java
+
+      
+---
+
+## 📃 License
+
+This project is for academic and institutional use. Please credit the developers if reused or modified for deployment.
 
 ---
+
+## 🙋‍♂️ Author
+
+**Abdul Rafay**  
+📧 Email: abdulrafay1402@gmail.com  
+🐙 GitHub: [@abdulrafay1402](https://github.com/abdulrafay1402)
+
+---
+
+## ⭐ Support
+
+If you like this project, consider giving it a ⭐ on GitHub.  
+Feedback, contributions, and forks are always welcome!
+
+
+
